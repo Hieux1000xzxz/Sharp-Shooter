@@ -46,7 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 362eba908960dfb418b9d0de01a257b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  muzzleFlash: {fileID: 912364962632821272, guid: 77aca0d3779c1ac4bb4070550e7ca0e8, type: 3}
+  muzzleFlash: {fileID: 1390054308264191493}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1001 &656006620974455653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -119,7 +122,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 433854761594150353, guid: 77aca0d3779c1ac4bb4070550e7ca0e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.727
+      value: -0.713
       objectReference: {fileID: 0}
     - target: {fileID: 433854761594150353, guid: 77aca0d3779c1ac4bb4070550e7ca0e8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -166,6 +169,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77aca0d3779c1ac4bb4070550e7ca0e8, type: 3}
+--- !u!198 &1390054308264191493 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 912364962632821272, guid: 77aca0d3779c1ac4bb4070550e7ca0e8, type: 3}
+  m_PrefabInstance: {fileID: 2297724345036524573}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1866307211601711564 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 433854761594150353, guid: 77aca0d3779c1ac4bb4070550e7ca0e8, type: 3}

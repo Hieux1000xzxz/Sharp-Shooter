@@ -15,4 +15,8 @@ MonoBehaviour:
   damage: 50
   fireRate: 1
   hitVFX: {fileID: 4948527889718001253, guid: 05c83d0c58486a741b31b0e8faa42ea1, type: 3}
+  weaponPrefab: {fileID: 2193963955699506990, guid: e7ebbc541aa656b46b0b979ea2fb6726, type: 3}
   isAutomatic: 0
+  canZoom: 1
+  zoomAmount: 10
+  magazineSize: 8

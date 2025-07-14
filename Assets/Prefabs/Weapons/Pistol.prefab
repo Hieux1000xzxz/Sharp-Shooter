@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4670178267865580987
 Transform:
   m_ObjectHideFlags: 0
@@ -46,7 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 362eba908960dfb418b9d0de01a257b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  muzzleFlash: {fileID: 912364962632821272, guid: da8f122ca4576be45bd2d5ec18a21ca2, type: 3}
+  muzzleFlash: {fileID: 1780057353721844704}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1001 &1449411008770898424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -111,6 +114,11 @@ PrefabInstance:
 --- !u!4 &1303804433506378793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 433854761594150353, guid: da8f122ca4576be45bd2d5ec18a21ca2, type: 3}
+  m_PrefabInstance: {fileID: 1449411008770898424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1780057353721844704 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 912364962632821272, guid: da8f122ca4576be45bd2d5ec18a21ca2, type: 3}
   m_PrefabInstance: {fileID: 1449411008770898424}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5633180564490025379

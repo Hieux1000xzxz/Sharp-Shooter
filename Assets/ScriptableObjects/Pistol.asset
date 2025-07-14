@@ -13,5 +13,10 @@ MonoBehaviour:
   m_Name: Pistol
   m_EditorClassIdentifier: 
   damage: 20
-  fireRate: 0.5
+  fireRate: 0.2
   hitVFX: {fileID: 4948527889718001253, guid: 1a1f75dceb968e9488a6281cd3716106, type: 3}
+  weaponPrefab: {fileID: 5232124763846887687, guid: 6cf47e7585b2fcb489e73718ca1fe973, type: 3}
+  isAutomatic: 0
+  canZoom: 0
+  zoomAmount: 10
+  magazineSize: 12
