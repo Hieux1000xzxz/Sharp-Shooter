@@ -71,7 +71,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeWeapon: {fileID: 0}
   rotationSpeed: 50
-  ammoAmount: 10
+  ammoAmount: 100
 --- !u!1 &8121816019878064822
 GameObject:
   m_ObjectHideFlags: 0
